@@ -2,6 +2,8 @@
 
 REST-Rant is an app where users can review restaurants.
 
+##Routes
+
 |Method  |Path                     |Purpose                                                 |
 |--------|:-----------------------:|-------------------------------------------------------:|
 |GET	 |   /	                   |  Home page                                             |
@@ -15,3 +17,10 @@ REST-Rant is an app where users can review restaurants.
 |POST	 |/places/:id/rant	       | Create a rant (comment) about a particular place       |
 |DELETE	 |/places/:id/rant/:rantId |	Delete a rant (comment) about a particular place    |
 |GET	 |   *	                   | 404 page (matches any route not defined above)         |
+
+##Places
+1. Olive Garden
+    -Location: Milwaukee, WI
+    -Foods: Pasta, breadsticks, good soup ![Olive Garden bag with salad, mac n cheese, breadsticks](https://th.bing.com/th/id/OIP.I1ZHUzbD5-3YLJvRXAfxgwHaFj?pid=ImgDet&rs=1)
+
+
