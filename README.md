@@ -20,8 +20,13 @@ REST-Rant is an app where users can review restaurants.
 
 ## Places
 1. Olive Garden
-    -Location: Milwaukee, WI
-    -Foods: Pasta, breadsticks, good soup 
+    - Location: Milwaukee, WI
+    - Foods: Pasta, breadsticks, good soup 
     ![Olive Garden bag with salad, mac n cheese, breadsticks](https://th.bing.com/th/id/OIP.I1ZHUzbD5-3YLJvRXAfxgwHaFj?pid=ImgDet&rs=1)
+
+2. Ossu Seiromushi
+    - Location: Songpa-gu, Seoul South Korea
+    - Foods: Seirofushi, Seiromushi, Onigirio 
+    ![Enterance to Ossu Seiromushi at night, it's on the corner of a street with simple wooden accents](https://laverdadnoticias.com/export/sites/laverdad/img/2020/09/17/restaurante_de_jin.jpg_738882147.jpg)
 
 
