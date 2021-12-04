@@ -1,0 +1,25 @@
+{
+  "name": "restRant",
+  "version": "1.0.0",
+  "description": "REST-Rant is an app where users can review restaurants.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjxliu/rest-rant-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjxliu/rest-rant-2/issues"
+  },
+  "homepage": "https://github.com/sjxliu/rest-rant-2#readme"
+}
