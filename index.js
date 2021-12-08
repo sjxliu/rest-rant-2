@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 
 
+// Express settings
 app.use(express.static("public"))
 app.set("views", __dirname + "/views");
 app.set("view engine", "jsx");

@@ -2,6 +2,10 @@
 
 REST-Rant is an app where users can review restaurants.
 
+## Notes
+- place.js in models is not being used
+
+
 ## Routes
 
 |Method  |Path                     |Purpose                                                 |
@@ -29,4 +33,4 @@ REST-Rant is an app where users can review restaurants.
     - Foods: Seirofushi, Seiromushi, Onigirio 
     ![Enterance to Ossu Seiromushi at night, it's on the corner of a street with simple wooden accents](https://laverdadnoticias.com/export/sites/laverdad/img/2020/09/17/restaurante_de_jin.jpg_738882147.jpg)
 
-*manually moved nodemon to dev dep in pack json
+
