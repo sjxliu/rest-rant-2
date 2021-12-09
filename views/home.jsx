@@ -7,7 +7,7 @@ function home () {
           <main>
               <h1>HOME</h1>
               <div>
-                <img src="/public/images/sushi.jpg" alt="Sushi topped with greens"></img>
+                <img src="/images/sushi.jpg" alt="Sushi topped with greens"></img>
                 <div>
                   Photo by: <a href="https://www.pexels.com/@cottonbro">Cottonbro</a> on <a href="https://www.pexels.com">Pexels</a>
                 </div>

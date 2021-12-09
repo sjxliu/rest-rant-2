@@ -10,7 +10,6 @@ app.set("view engine", "jsx");
 app.engine("jsx", require("express-react-views").createEngine())
 
 //Controllers and routes
-
 app.use("/places", require("./controllers/places_control"))
 
 app.get('/', (req, res) => {
@@ -24,3 +23,4 @@ app.get("*", (req, res) => {
 })
 
 app.listen(process.env.PORT)
+console.log("I have risen")
