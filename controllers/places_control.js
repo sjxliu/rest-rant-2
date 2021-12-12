@@ -42,7 +42,21 @@ router.get("/:id", (req, res)=>{
       res.render("error404")
   }
    else {
-    res.render("places/show", {places:places[id],id})
+     //Dig into req.body + make syre data is valid
+    if(!req.body.pic){
+      //Default image if one isn't provided
+      req.body.pic = "http://place-puppy.com/400x400"
+    }
+    if(!req.body.city){
+      req.body.city = "Burnt Porcupine"
+    }
+    if(req.body.state){
+      req.body.state = "USA"
+    }
+    //save new data into places [id]
+    places[id] = req.body
+
+    res.redirect("/places/${id}")
   }
 })
 
