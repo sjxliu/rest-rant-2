@@ -38,10 +38,24 @@ router.get("/:id", (req, res)=>{
   if (isNaN(id)){
     res.render("error404")
   } else if (!places[id]) {
-res.render("error404")
+      res.render("error404")
   }
    else {
-    res.render("places/show", {places:places[id]})
+    res.render("places/show", {places:places[id],id})
+  }
+})
+
+router.delete("/places/:id", (req, res)=>{
+  let id = Number(req.params.id)
+  if (NaN(id)){
+    res.render("error404")
+  } 
+  else if (!places[id]) {
+    res.render("error404")
+  } 
+  else {
+    places.splice(i, 1)
+    res.redirect("/places")
   }
 })
 
