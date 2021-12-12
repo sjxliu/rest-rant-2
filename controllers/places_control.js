@@ -1,4 +1,5 @@
 const router = require('express').Router()
+const res = require('express/lib/response')
 const places = require('../models/places')
 
 // More code here in a moment
@@ -33,7 +34,7 @@ router.get('/', (req, res) => {
 
 
 router.get("/:id", (req, res)=>{
-  res.render("places/show")
+  // res.render("places/show")
   let id = Number(req.params.id)
   if (isNaN(id)){
     res.render("error404")
@@ -45,6 +46,22 @@ router.get("/:id", (req, res)=>{
   }
 })
 
+// Edit
+router.get("/:id/edit", (req, res) => {
+  let id = Number(req.params.id)
+  if (isNaN(id)){
+    res.render("error404")
+  } 
+  else if (!places[id]) {
+    res.render("error404")
+  }
+  else {
+    res.render("places/edit", {place: places[id]})
+  }
+})
+
+
+//Delete
 router.delete("/places/:id", (req, res)=>{
   let id = Number(req.params.id)
   if (NaN(id)){
