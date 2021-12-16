@@ -3,9 +3,11 @@ const res = require('express/lib/response')
 const places = require('../models/places')
 
 // More code here in a moment
-// router.get("/", (req, res)=>{
-//     res.render("places_control/index", {places_control})
-// })
+
+
+router.get("/", (req, res)=>{
+    res.render("places_control/index", {places_control})
+})
 
 router.post('/', (req, res) => {
   // console.log(req.body)
