@@ -1,5 +1,5 @@
-// require("dotenv").config();
-require("dotenv").require()
+require("dotenv").config();
+// require("dotenv").require();
 const mongoose = require("mongoose");
 
 mongoose.connect(process.env.MONGO_URI, {
@@ -8,3 +8,4 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 module.exports.Place = require("./places");
+module.exports.Comment = require("./comments");

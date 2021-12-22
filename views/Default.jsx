@@ -14,28 +14,28 @@ function Default(html) {
         {/* <link rel="stylesheet" href="/css/style.css"></link> */}
       </head>
       <body>
-        <nav class="navbar navbar-light bg-light">
-          <span class="navbar-brand mb-0 h1">RestRANT</span>
+        <nav className="navbar navbar-light bg-light">
+          <span className="navbar-brand mb-0 h1">RestRANT</span>
 
-          {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+          {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button> */}
 
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
                 Home
               </a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/places">
+            <li className="nav-item">
+              <a className="nav-link" href="/places">
                 Places
               </a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/places/new">
+            <li className="nav-item">
+              <a className="nav-link" href="/places/new">
                 Add Place
               </a>
             </li>
