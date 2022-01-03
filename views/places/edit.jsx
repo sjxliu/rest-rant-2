@@ -29,6 +29,21 @@ function edit_form(data) {
             <input id="pic" name="pic" value={data.place.img} />
           </div>
         </div>
+
+        <div className="form-group col-sm-4"></div>
+        <label htmlFor="founded">Founded</label>
+        <input
+          className="form-control"
+          id="founded"
+          name="founded"
+          value={data.place.founded}
+        />
+
+        <input
+          className="btn btn-primary"
+          type="submit"
+          value="Update Place"
+        ></input>
       </form>
     </Default>
   );
